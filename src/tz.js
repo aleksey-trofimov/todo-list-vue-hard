@@ -335,10 +335,9 @@ export const tzData = [
       },
       {
         taskId: 33,
-        taskTitle:
-          "Масштабируемость на мобильные устройства до 320*480px (iPhone 4)",
+        taskTitle: "Масштабируемость на мобильные устройства)",
         taskTitleHeight: 0,
-        taskDone: false,
+        taskDone: true,
         taskOpened: false,
         taskHovered: false,
         subMenuShown: false,
