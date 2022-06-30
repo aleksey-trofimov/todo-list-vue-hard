@@ -31,6 +31,7 @@
         <Draggable
           v-for="currentTask in filteredTasks"
           :key="currentTask.taskId"
+          style="overflow: visible"
         >
           <div class="list-item">
             <div
@@ -143,6 +144,7 @@
                 <Draggable
                   v-for="currentSubTask in currentTask.taskSubs"
                   :key="currentSubTask.taskId"
+                  style="overflow: visible"
                 >
                   <div
                     @mouseover="subTaskMouseOver(currentSubTask)"
@@ -205,8 +207,8 @@
                         @mouseleave="menuMouseLeave(currentSubTask)"
                         class="list-item__submenu"
                         v-bind:style="{
-                          top: currentSubTask.subMenuY + 0 + 'px',
-                          left: currentSubTask.subMenuX - 190 + 'px',
+                          top: currentSubTask.subMenuY + 20 + 'px',
+                          left: currentSubTask.subMenuX - 185 + 'px',
                         }"
                       >
                         <div

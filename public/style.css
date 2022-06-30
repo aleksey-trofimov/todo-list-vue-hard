@@ -39,7 +39,7 @@ body {
   outline: none;
   resize: none;
   overflow: hidden;
-  font-family: "Roboto", sans-serif;  
+  font-family: "Roboto", sans-serif;
   height: 25px;
   font-size: 20px;
   line-height: 1.5;
@@ -103,18 +103,18 @@ body {
   max-width: 610px;
   min-height: 42px;
   width: 100%;
-  margin: 0px 0px 0px 8px;  
+  margin: 0px 0px 0px 8px;
   padding: 0;
 }
 
 .list-item__header_textarea {
   width: 100%;
   border: 0px;
-  margin: 0 0 0 0;  
+  margin: 0 0 0 0;
   padding: 0 0 0 0px;
   outline: none;
-  resize: none;  
-  overflow: hidden;
+  resize: none;
+  overflow: visible;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   max-width: 620px;
@@ -140,7 +140,7 @@ body {
   margin: 0px 0px 0px 10px;
   outline: none;
   resize: none;
-  overflow: hidden;
+  overflow: visible;
   font-family: "Roboto", sans-serif;
   max-width: 600px;
   min-height: 42px;
@@ -152,11 +152,11 @@ body {
 .list-item__option_textarea {
   width: 100%;
   border: 0px;
-  margin: 0 0 0 0;  
+  margin: 0 0 0 0;
   padding: 0 0 0 0px;
   outline: none;
   resize: none;
-  overflow: hidden;
+  overflow: visible;
   font-family: "Roboto", sans-serif;
   max-width: 620px;
   min-height: 42px;
